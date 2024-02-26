@@ -1,0 +1,15 @@
+void main() {
+ var list = [12,34,1,67,45,99,101];
+  var max_num = list[0];
+  var min_num = list[0];
+  for(int i =0 ;i<list.length;i++){
+    if(list[i]<min_num){
+      min_num=list[i];
+    }
+    if(list[i]>max_num){
+      max_num=list[i];
+    }
+  }
+  print("maximum num is :${max_num}");
+  print("maximum num is :${min_num}");
+}
